@@ -1,0 +1,26 @@
+{
+  "name": "laravel/framework",
+  "description": "Design Patterns in PHP",
+  "keywords": ["design patterns"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Behzad Dadashpour",
+      "email": "dadashpour.behzad@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.3|^8.0",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9"
+  },
+  "autoload": {
+    "classmap": [
+      "tests", "Creational", "Structural", "Behavioral"
+    ]
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
