@@ -2,13 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Test;
-
 use DesignPatterns\Structural\Composite\Menu\Category;
 use DesignPatterns\Structural\Composite\Menu\Item;
 use PHPUnit\Framework\TestCase;
 
-class CompositeMenuTest extends TestCase{
+class StructuralCompositeMenuTest extends TestCase{
 
     public function testMenuRender(){
         $menu = new Category("About us");
