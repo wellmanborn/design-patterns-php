@@ -7,7 +7,7 @@ use DesignPatterns\Behavioral\Strategy\Image\JpegCompressor;
 use DesignPatterns\Behavioral\Strategy\Image\PngCompressor;
 use PHPUnit\Framework\TestCase;
 
-class StrategyImageTest extends TestCase
+class BehavioralStrategyImageTest extends TestCase
 {
     function testImageCompressAndFilter(){
         $image = new Image("sea.jpg");
